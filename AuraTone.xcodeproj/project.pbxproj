@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09DE90CDF58A0622D1FFD8DE /* Harmony.mid in Resources */ = {isa = PBXBuildFile; fileRef = D879B53E5B8F15772CAD6956 /* Harmony.mid */; };
+		32A2539D4913DD0ABD2F6208 /* Solitude.mid in Resources */ = {isa = PBXBuildFile; fileRef = 633E2E7603CB5A129E55D287 /* Solitude.mid */; };
+		388088C6641613F9B1DE0F4F /* Halcyon.mid in Resources */ = {isa = PBXBuildFile; fileRef = 1AA9E6235B9873FBF67035BF /* Halcyon.mid */; };
+		39BDAC443774FF07DAF40C44 /* Solace.mid in Resources */ = {isa = PBXBuildFile; fileRef = 0A627CBE9E8674EF1C71F5A9 /* Solace.mid */; };
+		3AB346AF1530F36F7096644E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484DAEFDC37B3CBE6E61018B /* Assets.xcassets */; };
+		518EA35D1B01F51FCDF12CD9 /* Ethereal.mid in Resources */ = {isa = PBXBuildFile; fileRef = 5355FBC4F774079F281AE2CF /* Ethereal.mid */; };
+		6875AB901D03E9B0D30FD53F /* Aurora.mid in Resources */ = {isa = PBXBuildFile; fileRef = A31C99890DC59C859DB1535D /* Aurora.mid */; };
+		6C3452DDB20558454608C616 /* TimGM6mb.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 711715E5C5A86838419F0018 /* TimGM6mb.sf2 */; };
+		717EA0656E2C369C2E1F46EE /* AuraToneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A1B4FD8703286685F4AF32 /* AuraToneApp.swift */; };
+		78FA3CE33B80B290F8850D1E /* Jubilee.mid in Resources */ = {isa = PBXBuildFile; fileRef = A47104703A51AD59198EE830 /* Jubilee.mid */; };
+		879679910C6BFBB47BEBE260 /* AudioEngineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D3D9468D2B37B923614B94 /* AudioEngineService.swift */; };
+		8D4864FA2C7BEBD2C3CDB0B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED54959C4ACB1397E1AD6B9F /* ContentView.swift */; };
+		8E599A0889C42101EE083167 /* Midnight.mid in Resources */ = {isa = PBXBuildFile; fileRef = 7B5BDB2B43B340049C6FAB72 /* Midnight.mid */; };
+		923BB7153B2E4F283C377531 /* Symphony.mid in Resources */ = {isa = PBXBuildFile; fileRef = EA0ABF958E5946FBFB8FE61F /* Symphony.mid */; };
+		9871A6E7985ACA58F1A5DC82 /* Retrograde.mid in Resources */ = {isa = PBXBuildFile; fileRef = 20E6A4852575DB3EBB5DB2CC /* Retrograde.mid */; };
+		99E9E6E77B2E4EA7849D5600 /* Devotion.mid in Resources */ = {isa = PBXBuildFile; fileRef = E0025D79FA28932FE5EE8A5D /* Devotion.mid */; };
+		AF2697A756F160583773691C /* Horizon.mid in Resources */ = {isa = PBXBuildFile; fileRef = 2403C6E0999311EDD63F85A5 /* Horizon.mid */; };
+		B0C09C2F3C097638C32B205C /* MidiTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DCE454E7975FAF2741316B /* MidiTrack.swift */; };
+		B9FAF27FB20D0B032D7D437C /* Luminous.mid in Resources */ = {isa = PBXBuildFile; fileRef = C321572CB436B42E72E59882 /* Luminous.mid */; };
+		BC3901BF4ED7BF1FE6FD083B /* Velvet.mid in Resources */ = {isa = PBXBuildFile; fileRef = 091EDCA20671236E5AD2B3A8 /* Velvet.mid */; };
+		BDC9B42108C16B597FAB4B4A /* Nebula.mid in Resources */ = {isa = PBXBuildFile; fileRef = 8F00B40228A7F411E45FCBEF /* Nebula.mid */; };
+		BED6380B865E66C0967DC249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1363210ED48230AF52585114 /* Foundation.framework */; };
+		C1404C8E312C1CF17B40A9EF /* Whisper.mid in Resources */ = {isa = PBXBuildFile; fileRef = 74E51BACF9A43D756ABDFF80 /* Whisper.mid */; };
+		D6310FB70ED0553CAE51AC2B /* Nostalgia.mid in Resources */ = {isa = PBXBuildFile; fileRef = 26BA059AE04C76909B4346AB /* Nostalgia.mid */; };
+		E24408F942400C054A31467D /* Affinity.mid in Resources */ = {isa = PBXBuildFile; fileRef = 5963F2E0E391613793600643 /* Affinity.mid */; };
+		EC49BBABAEC607E8E10DA4BE /* Serenade.mid in Resources */ = {isa = PBXBuildFile; fileRef = 73EE8BA674490FDFBDFFEA40 /* Serenade.mid */; };
+		F0E9D8A1B0A33E5FCBF39A85 /* Clarity.mid in Resources */ = {isa = PBXBuildFile; fileRef = 4378B8389C049A9BC5AD566F /* Clarity.mid */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		091EDCA20671236E5AD2B3A8 /* Velvet.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Velvet.mid; sourceTree = "<group>"; };
+		0A627CBE9E8674EF1C71F5A9 /* Solace.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Solace.mid; sourceTree = "<group>"; };
+		1363210ED48230AF52585114 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1AA9E6235B9873FBF67035BF /* Halcyon.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Halcyon.mid; sourceTree = "<group>"; };
+		20E6A4852575DB3EBB5DB2CC /* Retrograde.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Retrograde.mid; sourceTree = "<group>"; };
+		2403C6E0999311EDD63F85A5 /* Horizon.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Horizon.mid; sourceTree = "<group>"; };
+		26BA059AE04C76909B4346AB /* Nostalgia.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Nostalgia.mid; sourceTree = "<group>"; };
+		4378B8389C049A9BC5AD566F /* Clarity.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Clarity.mid; sourceTree = "<group>"; };
+		484DAEFDC37B3CBE6E61018B /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5355FBC4F774079F281AE2CF /* Ethereal.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Ethereal.mid; sourceTree = "<group>"; };
+		5963F2E0E391613793600643 /* Affinity.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Affinity.mid; sourceTree = "<group>"; };
+		633E2E7603CB5A129E55D287 /* Solitude.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Solitude.mid; sourceTree = "<group>"; };
+		711715E5C5A86838419F0018 /* TimGM6mb.sf2 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = TimGM6mb.sf2; sourceTree = "<group>"; };
+		73EE8BA674490FDFBDFFEA40 /* Serenade.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Serenade.mid; sourceTree = "<group>"; };
+		74E51BACF9A43D756ABDFF80 /* Whisper.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Whisper.mid; sourceTree = "<group>"; };
+		7AF5EFFCD50A93F3B93441EC /* AuraTone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuraTone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5BDB2B43B340049C6FAB72 /* Midnight.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Midnight.mid; sourceTree = "<group>"; };
+		8F00B40228A7F411E45FCBEF /* Nebula.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Nebula.mid; sourceTree = "<group>"; };
+		96D3D9468D2B37B923614B94 /* AudioEngineService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioEngineService.swift; path = Services/AudioEngineService.swift; sourceTree = "<group>"; };
+		A31C99890DC59C859DB1535D /* Aurora.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Aurora.mid; sourceTree = "<group>"; };
+		A47104703A51AD59198EE830 /* Jubilee.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Jubilee.mid; sourceTree = "<group>"; };
+		C321572CB436B42E72E59882 /* Luminous.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Luminous.mid; sourceTree = "<group>"; };
+		D6A1B4FD8703286685F4AF32 /* AuraToneApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuraToneApp.swift; sourceTree = "<group>"; };
+		D879B53E5B8F15772CAD6956 /* Harmony.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Harmony.mid; sourceTree = "<group>"; };
+		E0025D79FA28932FE5EE8A5D /* Devotion.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Devotion.mid; sourceTree = "<group>"; };
+		EA0ABF958E5946FBFB8FE61F /* Symphony.mid */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.midi; path = Symphony.mid; sourceTree = "<group>"; };
+		ED54959C4ACB1397E1AD6B9F /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Views/ContentView.swift; sourceTree = "<group>"; };
+		F3DCE454E7975FAF2741316B /* MidiTrack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MidiTrack.swift; path = Models/MidiTrack.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DF747D80A066FF768CDC0A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED6380B865E66C0967DC249 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		157950D375253CCE1F9C2EFF /* MIDI */ = {
+			isa = PBXGroup;
+			children = (
+				5963F2E0E391613793600643 /* Affinity.mid */,
+				A31C99890DC59C859DB1535D /* Aurora.mid */,
+				4378B8389C049A9BC5AD566F /* Clarity.mid */,
+				E0025D79FA28932FE5EE8A5D /* Devotion.mid */,
+				5355FBC4F774079F281AE2CF /* Ethereal.mid */,
+				1AA9E6235B9873FBF67035BF /* Halcyon.mid */,
+				D879B53E5B8F15772CAD6956 /* Harmony.mid */,
+				2403C6E0999311EDD63F85A5 /* Horizon.mid */,
+				A47104703A51AD59198EE830 /* Jubilee.mid */,
+				C321572CB436B42E72E59882 /* Luminous.mid */,
+				7B5BDB2B43B340049C6FAB72 /* Midnight.mid */,
+				8F00B40228A7F411E45FCBEF /* Nebula.mid */,
+				26BA059AE04C76909B4346AB /* Nostalgia.mid */,
+				20E6A4852575DB3EBB5DB2CC /* Retrograde.mid */,
+				73EE8BA674490FDFBDFFEA40 /* Serenade.mid */,
+				0A627CBE9E8674EF1C71F5A9 /* Solace.mid */,
+				633E2E7603CB5A129E55D287 /* Solitude.mid */,
+				EA0ABF958E5946FBFB8FE61F /* Symphony.mid */,
+				091EDCA20671236E5AD2B3A8 /* Velvet.mid */,
+				74E51BACF9A43D756ABDFF80 /* Whisper.mid */,
+				711715E5C5A86838419F0018 /* TimGM6mb.sf2 */,
+			);
+			path = MIDI;
+			sourceTree = "<group>";
+		};
+		1A283D3A2A63635A03624AF4 = {
+			isa = PBXGroup;
+			children = (
+				5E40963D6847E04CBE0C2EED /* Products */,
+				D08768E496B42FEC7CACC591 /* Frameworks */,
+				CBFE555BD6476306D1EA171D /* Sources */,
+				157950D375253CCE1F9C2EFF /* MIDI */,
+			);
+			sourceTree = "<group>";
+		};
+		1CEEA6B8604ECC3BF78AB733 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1363210ED48230AF52585114 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E40963D6847E04CBE0C2EED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AF5EFFCD50A93F3B93441EC /* AuraTone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBFE555BD6476306D1EA171D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D6A1B4FD8703286685F4AF32 /* AuraToneApp.swift */,
+				F3DCE454E7975FAF2741316B /* MidiTrack.swift */,
+				96D3D9468D2B37B923614B94 /* AudioEngineService.swift */,
+				ED54959C4ACB1397E1AD6B9F /* ContentView.swift */,
+				484DAEFDC37B3CBE6E61018B /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D08768E496B42FEC7CACC591 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CEEA6B8604ECC3BF78AB733 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9E0484E536C67AA50C0D3B1 /* AuraTone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6512CF3D057B39420FB51EFD /* Build configuration list for PBXNativeTarget "AuraTone" */;
+			buildPhases = (
+				31CE22D1286C49D4A1588544 /* Sources */,
+				6DF747D80A066FF768CDC0A6 /* Frameworks */,
+				E1D9CC50886A0A2B14C04292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuraTone;
+			productName = AuraTone;
+			productReference = 7AF5EFFCD50A93F3B93441EC /* AuraTone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2623A6BDD02417E2D022A8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C9E0484E536C67AA50C0D3B1 = {
+						DevelopmentTeam = Q9YC9DLD52;
+					};
+				};
+			};
+			buildConfigurationList = 198511003F7FF92813ED203A /* Build configuration list for PBXProject "AuraTone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A283D3A2A63635A03624AF4;
+			productRefGroup = 5E40963D6847E04CBE0C2EED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9E0484E536C67AA50C0D3B1 /* AuraTone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1D9CC50886A0A2B14C04292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB346AF1530F36F7096644E /* Assets.xcassets in Resources */,
+				E24408F942400C054A31467D /* Affinity.mid in Resources */,
+				6875AB901D03E9B0D30FD53F /* Aurora.mid in Resources */,
+				F0E9D8A1B0A33E5FCBF39A85 /* Clarity.mid in Resources */,
+				99E9E6E77B2E4EA7849D5600 /* Devotion.mid in Resources */,
+				518EA35D1B01F51FCDF12CD9 /* Ethereal.mid in Resources */,
+				388088C6641613F9B1DE0F4F /* Halcyon.mid in Resources */,
+				09DE90CDF58A0622D1FFD8DE /* Harmony.mid in Resources */,
+				AF2697A756F160583773691C /* Horizon.mid in Resources */,
+				78FA3CE33B80B290F8850D1E /* Jubilee.mid in Resources */,
+				B9FAF27FB20D0B032D7D437C /* Luminous.mid in Resources */,
+				8E599A0889C42101EE083167 /* Midnight.mid in Resources */,
+				BDC9B42108C16B597FAB4B4A /* Nebula.mid in Resources */,
+				D6310FB70ED0553CAE51AC2B /* Nostalgia.mid in Resources */,
+				9871A6E7985ACA58F1A5DC82 /* Retrograde.mid in Resources */,
+				EC49BBABAEC607E8E10DA4BE /* Serenade.mid in Resources */,
+				39BDAC443774FF07DAF40C44 /* Solace.mid in Resources */,
+				32A2539D4913DD0ABD2F6208 /* Solitude.mid in Resources */,
+				923BB7153B2E4F283C377531 /* Symphony.mid in Resources */,
+				BC3901BF4ED7BF1FE6FD083B /* Velvet.mid in Resources */,
+				C1404C8E312C1CF17B40A9EF /* Whisper.mid in Resources */,
+				6C3452DDB20558454608C616 /* TimGM6mb.sf2 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31CE22D1286C49D4A1588544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717EA0656E2C369C2E1F46EE /* AuraToneApp.swift in Sources */,
+				B0C09C2F3C097638C32B205C /* MidiTrack.swift in Sources */,
+				879679910C6BFBB47BEBE260 /* AudioEngineService.swift in Sources */,
+				8D4864FA2C7BEBD2C3CDB0B2 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1904D3544A25782614C4B5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9YC9DLD52;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.air.AuraTone;
+				PRODUCT_NAME = AuraTone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		47AF2843908EE8ED4F8D912D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		52E943F305417996AAD10BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9YC9DLD52;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.air.AuraTone;
+				PRODUCT_NAME = AuraTone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		589AD2AF32A1F29C381BE156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		198511003F7FF92813ED203A /* Build configuration list for PBXProject "AuraTone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AF2843908EE8ED4F8D912D /* Debug */,
+				589AD2AF32A1F29C381BE156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6512CF3D057B39420FB51EFD /* Build configuration list for PBXNativeTarget "AuraTone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E943F305417996AAD10BAF /* Release */,
+				1904D3544A25782614C4B5A6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2623A6BDD02417E2D022A8C /* Project object */;
+}
